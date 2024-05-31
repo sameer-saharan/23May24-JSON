@@ -1,0 +1,45 @@
+body {
+    font-family: sans-serif;
+}
+button {
+    cursor: pointer;
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+.nav-item {
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    padding: 10px 80px;
+    border: 2px solid;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-item:hover {
+    background-color: #dbd7d7;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+.cart {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+}
+.userCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 10px;
+    background-color: #fdeaa4;
+    box-shadow: 1px 1px 10px black;
+    height: 100px;
+    width: 300px;
+    border-radius: 10px;
+    padding-left: 10px;
+}

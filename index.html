@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JSON Home</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <nav>
+      <a class="nav-item" href="./index.html">Home</a>
+      <a class="nav-item" href="./cart.html">Cart</a>
+    </nav>
+    <main>
+      <div class="form-cont">
+        <div class="form-field">
+          <label for="name">Name:</label>
+          <input type="text" id="name" />
+        </div>
+        <div class="form-field">
+          <label for="name">Username:</label>
+          <input type="text" id="username" />
+        </div>
+        <div class="form-field">
+          <label for="name">Email:</label>
+          <input type="text" id="email" />
+        </div>
+
+        <button id="submit">Submit</button>
+      </div>
+
+      <div class="filter-and-sort">
+        <div>
+          <label for="">Sort by: </label>
+          <select name="select" id="select-bar">
+            <option value="">-select-</option>
+            <option value="name-asc">A-Z (Name)</option>
+            <option value="name-dec">Z-A (Name)</option>
+            <option value="username-asc">A-Z (Username)</option>
+            <option value="username-dec">Z-A (Username)</option>
+            <option value="email-asc">A-Z (Email)</option>
+            <option value="email-dec">Z-A (Email)</option>
+
+          </select>
+        </div>
+
+        <div>
+        </div>
+      </div>
+
+      <div class="container"></div>
+    </main>
+  </body>
+  <script src="./index.js"></script>
+</html>
